@@ -1,0 +1,239 @@
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #1e1e1e;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #a855f7;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #a855f7;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Project Cards */
+.project-card {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 20px auto;
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover img {
+    transform: scale(1.1);
+}
+
+.project-info {
+    padding: 15px;
+    background-color: #232323;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-card:hover .project-info {
+    background-color: #a855f7;
+    color: #fff;
+}
+
+/* Social Links */
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-links li a {
+    color: #a855f7;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links li a:hover {
+    color: #fff;
+}
+
+/* Education & Work Experience */
+.education-work {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.education-work .card {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    transition: box-shadow 0.3s ease;
+}
+
+.education-work .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.education-work h3 {
+    color: #a855f7;
+    margin-bottom: 15px;
+}
+
+.education-work p {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+/* Publications */
+.publications {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.publications h3 {
+    color: #a855f7;
+    margin-bottom: 15px;
+}
+
+.publications ul {
+    list-style: none;
+    padding: 0;
+}
+
+.publications ul li {
+    margin-bottom: 10px;
+}
+
+/* Profile Picture */
+.profile-picture {
+    border: 4px solid #a855f7;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-picture img {
+    width: 170px;
+    height: auto;
+    display: block;
+}
+
+/* Contact Form Container */
+.contact-form-container {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 50px;
+    margin: 0 auto;
+    max-width: 500px; /* Adjust to fit your design */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-container .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #a855f7;
+}
+
+.contact-form-container .form-group input, 
+.contact-form-container .form-group textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #232323;
+    color: #fff;
+}
+
+.contact-form-container button {
+    background-color: #a855f7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form-container button:hover {
+    background-color: #7f43d7;
+}
+
+.fa.fa-twitter{
+	font-family:sans-serif;
+}
+.fa.fa-twitter::before{
+	content:"𝕏";
+	font-size:1.2em;
+}
