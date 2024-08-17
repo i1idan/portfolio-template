@@ -163,6 +163,40 @@ p {
     margin-bottom: 10px;
 }
 
+.publication-item {
+    margin-bottom: 20px;
+}
+
+.publication-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.publication-link:hover {
+    color: #a855f7;
+    text-decoration: underline;
+}
+
+.button {
+    display: inline-block;
+    background-color: #a855f7;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #7f43d7;
+}
+
 /* Profile Picture */
 .profile-picture {
     border: 4px solid #a855f7;
