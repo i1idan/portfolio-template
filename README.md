@@ -3,6 +3,9 @@
 
 Welcome to the portfolio template! This template is designed to help you create a personal portfolio with a clean and modern design. You can customize it to showcase your skills, experience, and projects.
 
+![Portfolio Screenshot](static/sample.png)
+
+
 ## Features
 
 - **Responsive Design**: Looks great on all devices.
